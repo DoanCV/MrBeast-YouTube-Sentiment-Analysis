@@ -19,6 +19,7 @@ def build_service():
                  YOUTUBE_API_VERSION,
                  developerKey=key)
 
+# data can be fed from function call but I don't want to scroll
 def get_comments(part='snippet', 
                  maxResults=100, 
                  textFormat='plainText',
